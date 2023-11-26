@@ -1,0 +1,5 @@
+Example of recording and saving data directly in Python: https://www.youtube.com/watch?v=e9CRZEi_feA
+
+Example of a pedal board project: https://www.youtube.com/watch?v=UlnI-L9OFkA
+
+Introduction to pedalboard: https://www.youtube.com/watch?v=NYhkqXpFAlg
