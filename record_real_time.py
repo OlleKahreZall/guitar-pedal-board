@@ -6,7 +6,7 @@ def configure_in_out_streams():
     p=pyaudio.PyAudio()
     FORMATIN = pyaudio.paInt16
     FORMATOUT = FORMATIN
-    CHANNELS = 1
+    CHANNELS = 2
     RATE = 44100
     CHUNK = 1024
 
@@ -45,6 +45,6 @@ def main(visualize: bool=False):
 
 
 if __name__ == "__main__":
-    main(visualize=False)
-    # stream.stop_stream()
+    main(visualize=True)
+    #stream.stop_stream()
 # p.terminate()
