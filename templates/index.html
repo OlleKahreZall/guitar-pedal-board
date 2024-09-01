@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microphone Input</title>
+</head>
+<body>
+    <h1>Microphone Input</h1>
+    <button id="startButton">Start Microphone</button>
+    <button id="stopButton" disabled>Stop Microphone</button>
+    <div>
+        <h2>Recording</h2>
+        <audio id="audioRecording" controls></audio>
+    </div>
+    <div>
+        <h2>Playback</h2>
+        <audio id="audioPlayback" controls></audio>
+    </div>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>
